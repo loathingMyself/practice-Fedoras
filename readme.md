@@ -1,3 +1,3 @@
-#git and github 
+#One of my first paractice projects 
 
-Crash course or whatever 
+La Fedoras
