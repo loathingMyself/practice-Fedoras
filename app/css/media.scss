@@ -1,0 +1,280 @@
+@media screen and (max-width: 1280px) {
+
+    h1 {
+        font-size: 80px;
+    }
+
+    h2 {
+        font-size: 70px;
+        line-height: 80px;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+
+    .features__content {
+        :nth-child(2) {
+          margin-top: unset;
+        }
+    }
+
+    .styles__grid, .styles__grid-additional {
+        grid-template-columns: 45% 45%;
+        column-gap: 30px;
+    }
+
+    .styles__card {
+        
+        &:hover {
+          transform: scale(1.02);
+        }
+    }
+    
+}
+
+@media screen and (max-width: 1024px) {
+    .container {
+        max-width: 728px;
+    }
+    
+    header {
+        background-size: 300px;
+        padding: 0 0 120px;
+    }
+
+    .header__inner {
+        margin-top: 20px;
+    }
+
+    .header__images {
+        margin-top: -20px;
+        :first-child, :last-child {
+            max-width: 150px;
+            min-width: 100px;
+        }
+
+        :last-child {
+            top: 30px;
+            right: 50px;
+        }
+    }
+
+    .features__main {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 88px;
+    }
+
+    .features__item {
+        p {
+            padding: 29px 19px;
+        }
+    }
+
+    .features__content {
+        margin-left: unset;
+        margin-top: 30px;
+        align-items: center;
+        text-align: center;
+    }
+
+    #styles {
+        margin-top: 85px;
+    }
+    
+    .styles__grid, .styles__grid-additional {
+        margin-top: 45px;
+    }
+
+    .styles__column {
+        row-gap: 30px;
+    }
+
+    .styles__content {
+        padding: 0px 25px 25px;
+    }
+
+    .styles__more {
+        &::before, &::after {
+            width: 18%;
+        }
+    }
+
+    .styles__expand {
+        span {
+            font-size: 102px;
+        }
+    }
+
+    #quote {
+        margin-top: 45px;
+    }
+
+    .quote__background {
+        width: 335px;
+    }
+
+    .newsletter__resend-b {
+        margin-top: 10px;
+    }
+
+    #newsletter {
+        margin-top: 45px;
+        padding: 30px 0;
+    }
+
+    .newsletter__form {
+        flex-wrap: wrap;
+    }
+
+    .newsletter__button {
+        margin-right: unset;
+        margin-top: 40px;
+    }
+
+    input {
+        flex-basis: unset;
+        margin-left: unset;
+    }
+
+    #footer {
+        padding: 40px 20px;
+    }
+    
+    .footer__inner {
+        flex-direction: column;
+    }
+
+    .footer__main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        order: 2;
+        margin-top: 50px;
+        max-width: unset;
+    }
+
+    .footer__aside {
+        margin-left: unset;
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width: 425px) {
+
+    h2 {
+        font-size: 64px;
+    }
+
+    .container {
+        max-width: 355px;
+    }
+
+    .heading {
+        padding: 30px 20px;
+    }
+
+    .shop-links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .shop-links :not(:last-child) {
+        margin-right: 20px;
+      }
+
+    header {
+        background-size: 250px;
+    }
+
+    .header__images {
+        :first-child, :last-child {
+            max-width: 100px;
+        }
+    }
+
+    .features__list {
+        flex-wrap: wrap;
+    }
+
+    .features__item {
+        flex-basis: unset;
+    }
+
+    .styles__grid, .styles__grid-additional {
+        grid-template-columns: 1fr;
+    }
+   
+
+    .styles__more {
+        &::before, &::after {
+            display: none;
+        }
+    }
+
+    .styles__expand {
+        span {
+            top: 0;
+            left: 0;
+            transform: translateX(0) translateY(0);
+        }
+    }
+    
+    #quote {
+        padding: 150px 50px;
+    }
+
+    .quote__background {
+        width: 325px;
+    }
+
+    .quote__heading::after {
+        transform: translateY(100%) translateX(-40%);
+    }
+
+    input {
+        max-width: 100%;
+    }
+
+    #footer {
+        padding: 50px 20px;
+    }
+
+    .footer__rights {
+        padding-top: 80px;
+    }
+
+    .footer__aside {
+        justify-content: space-between;
+        margin-left: unset;
+    }
+
+    .footer__navigation~.footer__navigation  {
+        margin-left: unset;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    h2 {
+        font-size: 60px;
+    }
+
+    .header__images {
+        :first-child, :last-child {
+            max-width: 90px;
+        }
+
+        :last-child {
+            top: 20px;
+            right: 20px;
+        }
+    }
+
+    .quote__background {
+        width: 305px;
+    }
+
+}
+
